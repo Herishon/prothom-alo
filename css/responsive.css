@@ -1,0 +1,168 @@
+/* Extra small devices (phones, 600px and down)  */
+@media only screen and (max-width: 400px) {}
+
+/* Extra small devices (small phones, 599px and down)  */
+@media only screen and (max-width: 599px) {
+    .header-section .tp-hd-wr {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: start !important;
+        align-items: center !important;
+    }
+    .header-section .mobile-menu {
+        max-width: 100vw !important;
+    }
+    .section-1 {
+        margin-bottom: 30px !important;
+    }
+    .section-5 .chris-evans-text {
+        font-size: 18px;
+    }
+    .section-5 .duffer-brothers .duffer-brothers-text {
+        font-size: 16px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 575px and down)  */
+@media only screen and (max-width: 575px) {
+    .section-5 .alia-bhatt {
+        margin-bottom: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 767px and down)  */
+@media only screen and (max-width: 767px) {
+    .border-right {
+        border: none !important;
+    }
+    .header-section .search-wrapper,
+    .header-section .today-date-wrapper,
+    .header-section .notification-icon-wrapper {
+        display: none;
+    }
+    .header-section .p-rel {
+        margin-bottom: 0 !important;
+    }
+    .header-section .login-language .mb-4 {
+        margin-bottom: 0 !important;
+    }
+    .header-section .logo {
+        max-width: 150px;
+    }
+    .header-section .tp-hd-wr {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+    .header-section .login-language {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+    }
+    .header-section .login-language .login-wrapper {
+        margin-right: 12px;
+    }
+    .header-section .login-btn {
+        display: none;
+    }
+    .header-section #user-icon {
+        display: inline-block;
+    }
+    .header-section #version {
+        display: none;
+    }
+    .header-section .col-md-8 {
+        text-align: left;
+    }
+    .section-1 .sec-1-hr-2,
+    .section-1 .sec-1-hr-3 {
+        display: none;
+    }
+    .section-1 .row-no-1 .border-right,
+    .section-1 .row-no-2 .border-right,
+    .section-4 .border-right {
+        border-right: none !important;
+    }
+    .section-1 .mouse-effect,
+    .section-1 .row-no-4 .mouse-effect {
+        border-bottom: 1px solid #dee2e6!important;
+    }
+    .section-3 .border-right {
+        border-right: none !important;
+        border-bottom: 1px solid #dee2e6 !important;
+        margin-bottom: 25px;
+    }
+    .section-5 .chris-evans {
+        min-height: 270px;
+    }
+    .section-6 .bottom-border {
+        margin-bottom: 22px;
+        border-bottom: 1px solid #dee2e6!important;
+    }
+    .footer .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .footer .navbar-nav .nav-link {
+        margin-right: 20px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and down)  */
+@media only screen and (max-width: 991px) {
+    .container-fluid {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .header-section .navbar {
+        display: none;
+    }
+    .section-1 .col-md-6,
+    .section-1 .row-no-3 .col-md-3,
+    .section-1 .row-no-4 .col-md-3,
+    .section-4 .col-md-3 {
+        margin-bottom: 15px;
+        border-right: none;
+    }
+    .section-1 .col-md-3 {
+        border-right: none;
+    }
+    .section-2 .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .section-2 .russian-ukraine-wrapper {
+        padding: 22px;
+    }
+    .section-2 .pm-li {
+        margin-left: 15px;
+    }
+    .section-4 .mouse-effect {
+        border-bottom: 1px solid #dee2e6!important;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer .navbar-nav {
+        flex-direction: row;
+    }
+    .footer .nav-link {
+        margin-right: 60px;
+    }
+    .footer .social-links {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .ftr-link-2 {
+        margin: 8px auto;
+    }
+    .footer .download-apps {
+        margin-bottom: 19px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up)  */
+@media only screen and (max-width: 1199px) {}
